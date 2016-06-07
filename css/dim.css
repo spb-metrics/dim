@@ -1,0 +1,309 @@
+/* 
+	Copyright 2011 Informática de Municípios Associados
+	Este arquivo é parte do programa DIM
+	O DIM é um software livre; você pode redistribuí-lo e/ou modificá-lo dentro dos termos da Licença Pública Geral GNU como publicada pela Fundação do Software Livre (FSF); na versão 2 da Licença.
+	Este programa é distribuído na esperança que possa ser  útil, mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU/GPL em português para maiores detalhes.
+	Você deve ter recebido uma cópia da Licença Pública Geral GNU, sob o título "LICENCA.txt", junto com este programa, se não, acesse o Portal do Software Público Brasileiro no endereço www.softwarepublico.gov.br ou escreva para a Fundação do Software Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+/*
+/////////////////////////////////////////////////////////////////
+//  Sistema..: DIM
+//  Arquivo..: dim.css
+//  Data.....: 27/11/2006
+//  Analista.: Fabio Hitoshi Ide
+//  Função...: Folha de estilos do sistema
+//////////////////////////////////////////////////////////////////
+*/
+
+.caminho_tela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  font-weight         : bold;
+  color: #990000;
+  background: #CCCCCC;
+}
+
+.titulo_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: white;
+  background: #0E5A98;
+  font-weight: bold;
+  
+
+}
+
+.coluna_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: white;
+  background: #0E5A98;
+}
+
+.opcao_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  background: #CCCCCC;
+}
+
+.navegacao_tabela{
+  background: #CCCCCC;
+}
+
+.linha_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: black;
+}
+
+.selecao_linha{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: black;
+  background: #D4DFED;
+}
+
+.descricao_campo_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: preto;
+  background: #D8DDE3;
+}
+
+.descricao_campo_tabela_hidden{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: #808080;
+  background: #D8DDE3;
+}
+
+.campo_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12;
+  color: preto;
+  background: #D4DFED;
+}
+
+.campo_tabela_hidden{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12;
+  color: #808080;
+  background: #D4DFED;
+}
+
+.campo_botao_tabela{
+  font-family: verdana, arial, sans_serif;
+  font-size: 12px;
+  color: preto;
+  background: #D8DDE3;
+}
+
+BODY
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   color               : #000000;
+
+   background-color    : #FFFFFF;
+   margin              : 3px;
+}
+
+.aviso
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   font-weight         : bold;
+}
+
+.aviso_acerto
+{
+   color               : #009F00;
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 14px;
+   font-weight         : bold;
+}
+
+.aviso_erro
+{
+   color               : 800000;
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 14px;
+   font-weight         : bold;
+}
+
+.label
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   font-weight         : bold;
+}
+
+select
+{
+   font                : 12px;
+   border              : solid 1px;
+}
+
+.fields
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   background-color    : #FFFFFF;
+   border-bottom       : solid 1px;
+   border-top          : solid 1px;
+   border-left         : solid 1px;
+   border-right        : solid 1px;
+
+}
+
+input.buttons
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   color               : #000000;
+   background-color    : #C0C0C0;
+   font-weight         : bold;
+   border-bottom       : solid 1px;
+   border-top          : solid 1px;
+   border-left         : solid 1px;
+   border-right        : solid 1px;
+}
+
+.cabecalho
+{
+   font-family         : verdana, arial, sans-serif;
+   color               : #990000;
+   font-size           : 12px;
+   font-weight         : bold;
+}
+
+.rodape
+{
+   font-family         : verdana, arial, sans-serif;
+   color               : #808080;
+   font-size           : 12px;
+   font-weight         : normal;
+}
+
+.titulo_programa
+{
+   font-family         : verdana, arial, sans-serif;
+   color               : #800000;
+   font-size           : 13px;
+   font-weight         : bold;
+}
+
+.titulo_tela
+{
+   font-size           : 12px;
+   font-color          : #800000;
+   font-weight         : bold;
+   background-color    : #E9E9E9;
+   border-color        : #000000;
+   border-bottom       : solid 1px;
+   border-top          : solid 1px;
+   border-left         : solid 1px;
+   border-right        : solid 1px;
+}
+
+.funcional_cab
+{
+   font-size           : 11px;
+   color               : #FFFFFF;
+   font-weight         : bold;
+}
+
+.funcional
+{
+   font-size           : 10px;
+   font-color          : #800000;
+   font-weight         : bold;
+}
+
+.exibicao
+{
+   font-size           : 14px;
+   font-color          : #800000;
+   font-weight         : normal;
+}
+
+.exibicao_bold
+{
+   font-size           : 14px;
+   font-color          : #800000;
+   font-weight         : bold;
+}
+
+.login
+{
+   font-family         : verdana, arial, sans-serif;
+   font-size           : 12px;
+   font-weight         : bold;
+   color               : #FFFFFF;
+}
+
+#listHolder
+{
+    position           : absolute;
+    border             : 0;
+}
+
+.list
+{
+    font               : 11px Verdana, Arial, Helvetica, sans-serif;
+    color              : #000000;
+    background         : ;
+}
+
+/*-------------------------------------------------------*/
+/*BARRA STATUS*/
+.barra_progresso
+{
+    FONT-SIZE: 1px;
+    LEFT: 0px;
+    WIDTH: 1px;
+    POSITION: relative;
+    TOP: 1px;
+    HEIGHT: 5px;
+    BACKGROUND-COLOR: #990000
+}
+.carregador_pai
+{
+    WIDTH: 100%;
+    POSITION: absolute;
+    TOP: 40%;
+    TEXT-ALIGN: center
+}
+.carregador_fundo
+{
+    FONT-SIZE: 1px;
+    LEFT: 8px;
+    WIDTH: 113px;
+    POSITION: relative;
+    TOP: 8px;
+    HEIGHT: 7px;
+    BACKGROUND-COLOR: #ebebe4
+}
+.carregador
+{
+    BORDER-RIGHT: #6a6a6a 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #6a6a6a 1px solid;
+    DISPLAY: block;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 11px;
+    Z-INDEX: 2;
+    PADDING-BOTTOM: 16px;
+    MARGIN: 0px auto;
+    BORDER-LEFT: #6a6a6a 1px solid;
+    WIDTH: 130px;
+    COLOR: #000000;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: #6a6a6a 1px solid;
+    FONT-FAMILY: Tahoma, Helvetica, sans;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: left
+}
+/*-------------------------------------------------------*/
+
